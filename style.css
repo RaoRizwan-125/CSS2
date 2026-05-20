@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.hello>p {
+    color:rgb(223, 217, 57)
+
+}
+.para{
+    width: 20%;
+}
+.blue{
+    background-color: blue;
+    
+}
+.box button{
+    background-color: gold;
+
+}
+img{
+    height: 100PX;
+    width: auto;
+}
