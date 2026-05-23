@@ -1,24 +1,111 @@
-*{
+* {
     margin: 0%;
-    padding: 0%;
+}
+
+h3 {
+    color: white;
 }
 
 .hello>p {
-    color:rgb(223, 217, 57)
-
+    color: rgb(223, 217, 57)
 }
-.para{
+
+.para {
     width: 20%;
+    color: white;
 }
-.blue{
-    background-color: blue;
-    
+
+.hello h1 {
+    color: white;
 }
-.box button{
+
+.blue {
+    background: rgb(4, 4, 31);
+    height: 260px;
+}
+
+.blue>.hello,
+.para,
+.box,
+h3 {
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.box .hire {
     background-color: gold;
+    border-radius: 7px;
+    border-color: gold;
+    width: 100px;
+    height: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 14px;
 
 }
-img{
+.box .View {
+    color: gold;
+      background-color: rgb(4, 4, 31);
+    border-radius: 7px;
+    border-color: gold;
+    width: 100px;
+    height: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
     height: 100PX;
     width: auto;
+}
+
+.BOTTOM  {
+    background-color: white;
+}
+
+.BOTTOM p {
+    width: 60%;
+}
+
+.BOTTOM .about {
+    color: hsl(51, 95%, 51%);
+      font-family:sans-serif;
+}
+
+.BOTTOM h1 {
+    text-decoration: 3px underline rgb(255, 215, 0);
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+}
+.BOTTOM .pic {
+    background-color:rgba(255, 228, 196, 0.241) ;
+    margin-top: 12px;
+    padding: 16px;
+}
+.BOTTOM img{
+    margin-right: 12px;
+}
+.BOTTOM .pic p {
+    color: rgb(255, 215, 0) ;
+}
+.BOTTOM .contact {
+    background-color: rgba(84, 145, 225, 0.21);
+    padding: 9px;
+}
+.BOTTOM .contact .p1{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.BOTTOM .contact h1{
+    text-decoration:none ;
+}
+.BOTTOM .contact .btn button{
+    margin: 6px;
+    height: 33px;
+    width: 110px;
+    color: white;
+    background-color: blue;
+    border: 2px solid rgb(18, 18, 19);
+    border-radius: 8px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.173);
 }
